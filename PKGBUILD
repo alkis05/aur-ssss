@@ -3,14 +3,14 @@
 
 pkgname=ssss
 pkgver=v0.5.6
-pkgrel=1
+pkgrel=2
 pkgdesc="Simple command-line implementation of Shamir's Secret Sharing Scheme"
 arch=('i686' 'x86_64')
 license=('GPL')
 url="http://point-at-infinity.org/ssss/"
 depends=('gmp')
 makedepends=('xmltoman')
-source=("ssss::git+https://github.com/alkis05/ssss.git#tag=releases/v${pkgver}")
+source=("ssss::git+https://github.com/alkis05/ssss.git#tag=releases/${pkgver}")
 md5sums=('SKIP')
 
 build() {

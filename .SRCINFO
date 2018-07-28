@@ -1,15 +1,14 @@
 pkgbase = ssss
 	pkgdesc = Simple command-line implementation of Shamir's Secret Sharing Scheme
-	pkgver = 0.5
-	pkgrel = 4
-	url = http://point-at-infinity.org/ssss/
+	pkgver = 0.5.6
+	pkgrel = 1
+	url = https://github.com/MrJoy/ssss
 	arch = i686
 	arch = x86_64
 	license = GPL
 	makedepends = xmltoman
 	depends = gmp
-	source = http://point-at-infinity.org/ssss/ssss-0.5.tar.gz
-	sha1sums = 3f8f5046c2c5c3a2cf1a93f0a9446681852b190e
-
-pkgname = ssss
+	source = git@github.com:alkis05/aur-ssss
+	sha1sums = 391991bc9f83b61d04933395eb10588d0e6d7fb9
+        pkgname = ssss
 
